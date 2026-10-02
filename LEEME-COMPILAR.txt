@@ -1,0 +1,29 @@
+CORAZON DE MELON 1.2.0 - COMO COMPILAR EL MOD CON GITHUB (sin instalar nada)
+
+LO QUE HAY EN ESTE ZIP (igual que tu otro repositorio):
+  .github/workflows/build.yml   -> la receta que compila el mod en la nube
+  src/                          -> el codigo y los recursos del mod
+  build.gradle, gradle.properties, settings.gradle
+  LEEME-COMPILAR.txt (este archivo), README.md, LICENSE, .gitignore, tools_gen_textures.py
+
+SUBIRLO A GITHUB (recomendado: un repositorio NUEVO llamado, por ejemplo, corazon-de-melon)
+ 1. Descomprime este zip en una carpeta.
+ 2. En GitHub: crea el repositorio nuevo (boton "New") y pulsa "uploading an existing file".
+    (Si ya tenias el repo del mod: Add file -> Upload files; los archivos con el mismo nombre se reemplazan.)
+ 3. Arrastra TODO el contenido de la carpeta (incluida la carpeta oculta ".github"; si no la ves, activa
+    "mostrar archivos ocultos" en tu explorador). OJO: no uses "Create new file" (el de la foto), ese solo crea un archivo suelto.
+ 4. Commit changes.
+ 5. Pestana "Actions": espera a que el Build salga en verde (unos 3-5 min) y descarga el artefacto "corazon-de-melon".
+ 6. Dentro esta corazon-de-melon-1.2.0.jar.
+
+NO LO MEZCLES con el repositorio "Oruguitas": es otro mod y los archivos build.gradle/src se pisarian entre si.
+
+EN MINECRAFT (Forge 1.20.1)
+ - BORRA el jar viejo (1.0.0 o 1.1.0) de la carpeta mods. Si dejas dos, Forge falla.
+ - Pon el jar nuevo (1.2.0).
+ - Tu config (config/corazondemelon-common.toml) se conserva. Para que salgan mas Maos pon maoSpawnChance = 0.25
+   (o borra el archivo y se regenera con los valores nuevos).
+ - Prueba: consigue Inocencia 3 (/inocencia nivel 3 si eres OP), dale una zanahoria dorada a un Mao
+   y escribe en el chat:  Mao, guarda este sitio como mi casa   /   Mao, dime los minerales cercanos
+
+SI EL BUILD SALE EN ROJO: abre el Build fallido en Actions, copia las lineas de "error:" y pasamelas.
