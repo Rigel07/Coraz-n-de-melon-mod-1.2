@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="corazondemelon"
+version="1.4.0"
+displayName="Corazón de Melon"
+description='''
+Encuentra corazones mágicos, sube tu nivel de Inocencia (de Bruto a Santo) y haz que los mobs te traten con cariño.
+Conoce a Mao, un pequeño ángel inmortal con compañeros nombrables, colores, patrullas, almacén persistente, crafteo y minería lenta.
+Reconoce los demás mods instalados: identifica criaturas, bloques y objetos, defiende a sus amigos y puede conversar con IA opcional.
+'''
+
+[[dependencies.corazondemelon]]
+modId="forge"
+mandatory=true
+versionRange="[47.3.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.corazondemelon]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

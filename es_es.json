@@ -1,0 +1,20 @@
+{
+  "itemGroup.corazondemelon": "Corazón de Melon",
+  "item.corazondemelon.corazon_magico": "Corazón mágico",
+  "item.corazondemelon.corazon_magico_azul": "Corazón mágico azul",
+  "item.corazondemelon.corazon_magico_dorado": "Corazón mágico dorado",
+  "item.corazondemelon.corazon_magico_violeta": "Corazón mágico violeta",
+  "item.corazondemelon.mao_spawn_egg": "Generar Mao",
+  "entity.corazondemelon.mao": "Mao",
+  "tooltip.corazondemelon.heart_xp": "+%s de Inocencia",
+  "tooltip.corazondemelon.heart_use": "Recógelo del suelo o haz clic derecho para absorberlo",
+  "key.corazondemelon.show_bar": "Mostrar barra de Inocencia",
+  "key.corazondemelon.open_settings": "Ajustes de Mao (IA)",
+  "key.categories.corazondemelon": "Corazón de Melon",
+  "message.corazondemelon.level_up": "✦ Tu Inocencia sube a nivel %s: %s",
+  "message.corazondemelon.mao_distrust": "Mao te mira con desconfianza... aún no eres lo bastante inocente (nivel 3).",
+  "message.corazondemelon.mao_tamed": "¡Mao te ha elegido como su humano!",
+  "message.corazondemelon.mao_sit": "Mao se queda quieto.",
+  "message.corazondemelon.mao_follow": "Mao te seguirá.",
+  "message.corazondemelon.mao_hug": "Mao abraza a %s ♥"
+}

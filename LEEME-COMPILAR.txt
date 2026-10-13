@@ -1,0 +1,17 @@
+CORAZON DE MELON 1.4.0 - PROYECTO FORGE 1.20.1
+
+El proyecto ya está organizado en las carpetas estándar de Gradle. No muevas los archivos Java ni los recursos.
+
+COMPILAR CON GITHUB ACTIONS
+1) Crea un repositorio en GitHub y sube el contenido de esta carpeta.
+2) Comprueba que .github/workflows/build.yml está incluido.
+3) Abre la pestaña Actions y espera a que termine Build.
+4) Si termina en verde, abre la ejecución y descarga el artefacto corazon-de-melon; dentro estará el .jar.
+5) Instala el .jar en mods/ de Minecraft Forge 1.20.1. Haz copia de seguridad de tu mundo antes de probar automatización de cofres/minería.
+
+COMPILAR LOCALMENTE
+- Usa Java 17 y Gradle 8.1.1 o compatible con ForgeGradle 6.
+- Ejecuta: gradle build --no-daemon
+- El .jar se genera en build/libs/.
+
+No se ha podido ejecutar una compilación real desde el entorno que generó este paquete porque no dispone de Gradle ni acceso a Internet. Verifica el resultado en GitHub Actions antes de usarlo en tu mundo principal.
